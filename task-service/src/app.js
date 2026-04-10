@@ -26,7 +26,6 @@ app.get("/",(req,res)=>{
 app.listen(PORT ,async()=> {
    try {
     await connectRabbitMQWithRetry();
-    
    } catch (error) {
     console.error("Failed to connect to RabbitMQ:", error);
    } 

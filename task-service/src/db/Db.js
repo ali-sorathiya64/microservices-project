@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 
 const connection_string ="mongodb://mongo:27017/task-service";
 
-// mongodb+srv://andrew:garfield@project.pxx38.mongodb.net/microservice_project?retryWrites=true&w=majority
 
 const connectDb =async ()=>{
 
