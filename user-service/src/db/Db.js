@@ -1,0 +1,26 @@
+import mongoose from "mongoose";
+
+const connection_string ="mongodb://mongo:27017/microservice_project";
+
+// mongodb+srv://andrew:garfield@project.pxx38.mongodb.net/microservice_project?retryWrites=true&w=majority
+
+const connectDb =async ()=>{
+
+
+     try{
+
+    await mongoose.connect(connection_string)
+
+    console.log("Database Connected  successfully")
+     }
+     catch(error){
+        console.log("Issue in connection")
+        process.exit(1)
+     }
+    
+}
+
+export default connectDb;
+
+
+
