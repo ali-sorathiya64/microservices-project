@@ -31,5 +31,5 @@ app.listen(PORT ,async()=> {
    } 
 
  
-    console.log(`task service server started on ${PORT}`) } )
+    console.log(`task service server started on ${PORT}` ) } )
 
