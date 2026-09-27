@@ -9,7 +9,6 @@ services:
      - mongo_data:/data/db
 
 
-  
   rabbitmq:
     image: rabbitmq:3-management
     container_name: rabbitmq
