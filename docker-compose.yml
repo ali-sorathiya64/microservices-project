@@ -37,7 +37,7 @@ services:
     
   notification-service:
     build: ./notification-service
-    container_name: notification-service
+    container_name: notification_service
     ports:
       - "8002:8002"
     depends_on:
